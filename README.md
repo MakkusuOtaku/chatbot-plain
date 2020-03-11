@@ -1,2 +1,2 @@
-# maku-chatbot-plain
+# chatbot-plain
 Needs a readme :/
