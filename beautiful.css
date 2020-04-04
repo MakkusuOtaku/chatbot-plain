@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 2vmax;
+	background: #333;
+}
+input {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+div {
+	/*display: grid;*/
+	/*gap: 1rem;*/
+	/*width: 100vmin;*/
+	height: 100vh;
+	width: 56.25vh;
+	/*size: 16:9;*/
+	background: #FFF;
+	overflow-y: scroll;
+}
+div > p {
+	/*background: rgba(0, 0, 0, 0.5);*/
+	padding: 0.5rem;
+	text-align: center;
+	margin: 0.2rem;
+}
+.bot {
+	background: #999;
+	text-align: left;
+	border-radius: 25px 25px 25px 0px;
+}
+.user {
+	background: #669;
+	text-align: right;
+	border-radius: 25px 25px 0px 25px;
+}
